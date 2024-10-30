@@ -187,6 +187,7 @@ sendMessageButton.addEventListener("click", (e) => handleOutgoingMessage(e));
 document
   .querySelector("#file-upload")
   .addEventListener("click", () => fileInput.click());
+
 chatbotToggler.addEventListener("click", () =>
   document.body.classList.toggle("show-chatbot")
 );
